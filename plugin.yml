@@ -1,0 +1,15 @@
+name: BlackXYZ
+main: BlackXYZ\BlackXYZ
+author: BlackTeam
+description: Afficher les coordonnées du joueur en temps réel
+version: 1.0.0
+api: [3.2.0]
+commands:
+  xyz:
+    description: Affichez vos coordonnées en temps réel lorsque vous vous déplacez
+    permission: livexyz
+    usage: /xyz
+permissions:
+  livexyz:
+    default: true
+    description: "Permet l'utilisation de BlackXYZ"
